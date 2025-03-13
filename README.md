@@ -1,3 +1,5 @@
+This project is a blockchain-based certificate management system that ensures secure, decentralized issuance, verification, and storage of digital certificates using blockchain and IPFS technologies. The system involves three key personas: Certificate Owner (student), Certificate Issuer (educational institution), and Certificate Validator (employer). The frontend provides an intuitive interface for login, certificate upload, viewing, signing, and verification. The backend manages user roles, authentication, certificate storage, and data encryption. A smart contract facilitates secure certificate creation, signing, and validation, while IPFS ensures efficient and tamper-proof storage and retrieval of certificate files. This system enhances transparency, security, and accessibility in digital credential management.
+
 # Project Setup Guide
 
 Follow the steps below to set up and run the project. You will need 4 terminals for this process.
@@ -41,10 +43,3 @@ In a separate terminal, still in the `Blockchain` directory, deploy the smart co
 cd Blockchain
 npx hardhat run scripts/deploy.ts --network localhost
 ```
-
-## Notes
-
-- Ensure you have all necessary dependencies installed for each terminal.
-- Make sure `Hardhat` is installed globally or locally in your project.
-- The `localhost` network must be running (from Terminal 3) before deploying the smart contracts in Terminal 4.
-- If any issues arise, check the logs in the respective terminal for debugging.
